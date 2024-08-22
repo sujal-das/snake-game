@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background:url("b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    background:url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+.navbar{
+    display: flex;
+    padding: .8rem;
+    margin-bottom: 1rem;
+    height: 25%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    border-radius: 2%;
+    h3{
+        margin-right: auto;
+        margin-left: 0.9rem;
+        color: white;
+    }
+    h3:hover{
+        color: rgb(194, 189, 189);
+        cursor: pointer;
+    }
+    a:hover{
+        cursor: pointer;
+        color: rgb(194, 189, 189);
+    }
+    li{
+        list-style: none;
+        margin: 0.5rem;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#restartButton{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
